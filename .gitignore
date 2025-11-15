@@ -1,6 +1,8 @@
 build/
-dist/
 *.class
-*.jar
 .DS_Store
 nbproject/private/
+
+# Allow dist folder with JAR executable
+!dist/
+!dist/*.jar
